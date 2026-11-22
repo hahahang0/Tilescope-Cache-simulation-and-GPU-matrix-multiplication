@@ -1,0 +1,17 @@
+policy,seed,accesses,passed,hits,misses
+lru,0,500,True,109,391
+lru,1,500,True,93,407
+lru,2,500,True,90,410
+lru,3,500,True,83,417
+lru,4,500,True,100,400
+lru,5,500,True,88,412
+lru,6,500,True,100,400
+lru,7,500,True,86,414
+fifo,0,500,True,101,399
+fifo,1,500,True,89,411
+fifo,2,500,True,92,408
+fifo,3,500,True,104,396
+fifo,4,500,True,91,409
+fifo,5,500,True,102,398
+fifo,6,500,True,107,393
+fifo,7,500,True,121,379

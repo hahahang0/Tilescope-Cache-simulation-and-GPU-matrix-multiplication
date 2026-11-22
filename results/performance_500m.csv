@@ -1,0 +1,2 @@
+pattern,n,tile,cache_bytes,line_bytes,ways,policy,accesses,hits,misses,miss_rate,evictions,write_backs,compulsory,capacity,conflict,elapsed_seconds
+ikj,500,16,32768,64,8,lru,500000000,492156250,7843750,0.0156875,7843238,15593,0,0,0,15.0655543999992

@@ -1,0 +1,20 @@
+{
+  "mode": "quick",
+  "machine": "results are from the local executable; CPU timings are recorded separately",
+  "cache_baseline": {
+    "cache_bytes": 32768,
+    "line_bytes": 64,
+    "ways": 8,
+    "policy": "lru"
+  },
+  "tile_loop_order": "ii,kk,jj,i,k,j",
+  "best_simulated_tile_by_n": {
+    "64": 4,
+    "128": 16
+  },
+  "amat_example": {
+    "hit_cycles": 4,
+    "miss_penalty_cycles": 200,
+    "measured": false
+  }
+}

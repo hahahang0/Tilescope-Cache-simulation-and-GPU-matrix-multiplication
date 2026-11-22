@@ -1,0 +1,5 @@
+case,accesses,hits,misses,evictions,write_backs,expected
+hand_direct_mapped,6,2,4,2,1,"4 sets; 0,16,0,64-store,64,0 gives 2 hits / 4 misses"
+fitting_working_set,30,27,3,0,0,3 compulsory misses then 27 hits
+sequential_scan,80,75,5,1,0,80 float32 values; 64-byte lines hold 16 values; miss rate 1/16
+cyclic_over_capacity,40,0,40,36,0,5 lines cycle through 4 fully associative LRU lines
